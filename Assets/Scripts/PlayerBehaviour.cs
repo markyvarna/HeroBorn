@@ -27,6 +27,13 @@ public class PlayerBehaviour : MonoBehaviour
 
     private GameBehaviour _gameManager;
 
+    // MARK: Firing Events (FE)
+    //FE: Declare new delegate type that returns void and takes no parameters
+    public delegate void JumpingEvent();
+    /*FE: create an event of JumpingEvent type, named playerJump, that can be
+    treated as a method that matches the delegates void return and no param signature*/
+    public event JumpingEvent playerJump;
+
     private void Start()
     {
         //set the players Rigidbody to the _rb variable
@@ -63,6 +70,8 @@ public class PlayerBehaviour : MonoBehaviour
         if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
         {
             _rb.AddForce(Vector3.up * jumpVelocity, ForceMode.Impulse);
+            //FE: calls playerJump after force is applied in Update()
+            playerJump();
         }
 
     }

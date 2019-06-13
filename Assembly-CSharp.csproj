@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\EnemyBehaviour.cs" />
     <Compile Include="Assets\Scripts\GameBehaviour.cs" />
     <Compile Include="Assets\Scripts\IManager.cs" />
+    <Compile Include="Assets\Scripts\InventoryList.cs" />
     <Compile Include="Assets\Scripts\ItemBehaviour.cs" />
     <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
     <Compile Include="Assets\Scripts\Utilities.cs" />

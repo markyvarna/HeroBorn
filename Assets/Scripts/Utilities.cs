@@ -29,6 +29,13 @@ public static class Utilities
 
     public static bool RestartLevel(int sceneIndex)
     {
+        // MARK: Throwing Exceptions (TE)
+        //TE: Declares if statemnt to check that sceneIndex is not less than zero
+        if (sceneIndex < 0)
+        {
+            //TE: Throws an Argument Exception with a custom string message
+            throw new System.ArgumentException("Scene index cannot be negative");
+        }
         SceneManager.LoadScene(sceneIndex);
         Time.timeScale = 1.0f;
         return true;

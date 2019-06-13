@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/IManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/InventoryList.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerBehaviour.cs" Line="21" Column="25" />
       <File FileName="Assets/Scripts/CameraBehaviour.cs" Line="8" Column="51" />
@@ -10,6 +10,7 @@
       <File FileName="Assets/Scripts/Utilities.cs" Line="23" Column="53" />
       <File FileName="Assets/Scripts/IManager.cs" Line="8" Column="23" />
       <File FileName="Assets/Scripts/CustomExtensions.cs" Line="11" Column="81" />
+      <File FileName="Assets/Scripts/InventoryList.cs" Line="5" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +18,7 @@
           <Node name="Hero Born" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="IManager.cs" selected="True" />
+                <Node name="InventoryList.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -27,7 +28,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="416f741e-7cec-49a1-9995-fcc56b78e99c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dc0572fd-bf28-4a67-ba49-90254c812389" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
