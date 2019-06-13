@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/IManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerBehaviour.cs" Line="21" Column="25" />
+      <File FileName="Assets/Scripts/CameraBehaviour.cs" Line="8" Column="51" />
+      <File FileName="Assets/Scripts/ItemBehaviour.cs" Line="26" Column="36" />
+      <File FileName="Assets/Scripts/EnemyBehaviour.cs" Line="28" Column="40" />
+      <File FileName="Assets/Scripts/BulletBehaviour.cs" Line="23" Column="4" />
+      <File FileName="Assets/Scripts/GameBehaviour.cs" Line="111" Column="47" />
+      <File FileName="Assets/Scripts/Utilities.cs" Line="23" Column="53" />
+      <File FileName="Assets/Scripts/IManager.cs" Line="8" Column="23" />
+      <File FileName="Assets/Scripts/CustomExtensions.cs" Line="11" Column="81" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hero Born" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="IManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="416f741e-7cec-49a1-9995-fcc56b78e99c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
